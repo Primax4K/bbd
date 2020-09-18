@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-size: 100%;
+    background: #0A0B0F;
+}
+*{
+    font-family: Arial;
+}
+.wrapper{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    align-items:center;
+    justify-content : flex-start;
+    background: #060709;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+
+.child1{
+    width:140px;
+    height:50px;
+    background-color: #EF232E;
+    color:white;
+    border-radius: 30px;
+    border: none;
+    outline:none;
+    transition: 0.3s;
+    font-size: 120%;
+    user-select: none;
+    margin-left: 5%;
+}
+.child1:hover{
+    background-color: #EF4923;
+    cursor: pointer;
+}
+.discord-iframe{
+    z-index: 100;
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 25vw;
+    height: 50vh;
+}
+.discord-description{
+    background: #1a1919;
+    opacity: 90%;
+    color: azure;
+    width: 45%;
+    border-radius: 3px;
+    padding: 2% 2% 2% 2%;
+    font-size: 130%;
+    position: absolute;
+    height: 17%;
+    left: 45%;
+    top: 45%;
+}
+.discord-description-header{
+    border-top: solid 0.1em #EF232E;
+    margin-bottom: 4%;
+    font-size: 3.3vh;
+    padding-top: 3%;
+}
+.discord-description-main{
+    border-bottom: solid 0.2em #EF232E;
+    padding-bottom: 3%;
+    font-size: 1.9vh;
+}
+.info-description{
+    background: #1a1919;
+    opacity: 90%;
+    color: azure;
+    width: 45%;
+    border-radius: 3px;
+    padding: 2% 2% 2% 2%;
+    font-size: 130%;
+    position: absolute;
+    height: 17%;
+    left: 5%;
+    top: 95%;
+}
+.info-description-header{
+    border-top: solid 0.1em #EF232E;
+    margin-bottom: 4%;
+    font-size: 3.3vh;
+    padding-top: 3%;
+}
+.info-description-main{
+    border-bottom: solid 0.2em #EF232E;
+    padding-bottom: 3%;
+    font-size: 1.9vh;
+}
+.r6-logo{
+    width: 10vw;
+    position: absolute;
+    top: 99%;
+    right: 25%;
+}
